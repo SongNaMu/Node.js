@@ -14,7 +14,7 @@
 		setTimeout(() => {
 			console.log('Send to Server' + new Date());
 			socket.emit('msg', 'Send to Server' + new Date());
-		}, 1000);
+		}, 3000);
 	}).on('disconnect', () => {console.log(1);});
 </script>
 </body>
