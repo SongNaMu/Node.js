@@ -1,0 +1,26 @@
+{
+  "name": "publish",
+  "version": "1.0.0",
+  "description": "some name of pack",
+  "main": "test.js",
+  "dependencies": {
+    "mysql": "^2.16.0",
+    "qs": "^6.5.2",
+    "redis": "^2.8.0",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SongNaMu/Node.js.git"
+  },
+  "author": "SongNaMu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SongNaMu/Node.js/issues"
+  },
+  "homepage": "https://github.com/SongNaMu/Node.js#readme"
+}
